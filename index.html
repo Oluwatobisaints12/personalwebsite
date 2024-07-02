@@ -12,13 +12,17 @@
       <h1>Frontend developer</h1>
 
       <div id="profile-pic">
-        <img
-        width="279"
-        height="372"
-          src="Images/my-pic4.jpeg"
-          alt="Slack Profile Picture"
-          data-testid="slackProfilePicture"
-        />
+        <a href="Images/my-pic4.jpeg" target="_blank">
+          <img
+              data-testid="profile-sect-pic"
+              src="Images/my-pic4.jpeg"
+              alt="Slack Profile Picture"
+              data-testid="slackProfilePicture"
+              width="279"  
+              height="372" 
+          />
+      </a>
+      
       </div>
     </header>
     <div class="container">
@@ -27,13 +31,16 @@
 
         <section id="profile" data-testid="profile-section">
           <div id="profile-pic">
-            <img
-            width="279"
-            height="372"
-              src="Images/my-pic4.jpeg"
-              alt="Slack Profile Picture"
-              data-testid="slackProfilePicture"
-            />
+            <a href="Images/my-pic4.jpeg" target="_blank">
+              <img
+                  data-testid="profile-sect-pic"
+                  src="Images/my-pic4.jpeg"
+                  alt="Slack Profile Picture"
+                  data-testid="slackProfilePicture"
+                  width="279"  
+                  height="372" 
+              />
+          </a>
           </div>
 
           <div id="about-me" data-testid="about-me-section">
@@ -169,7 +176,9 @@
         <h2 data-testid="contact-title">Contact</h2>
         <p data-testid="contact-text">
           You can reach me at
-          <span data-testid="slackEmail">tobijoshua919@gmail.com</span>.
+          <a href="mailto:tobijoshua919@gmail.com">
+            <span data-testid="slackEmail">tobijoshua919@gmail.com</span>
+        </a>        
         </p>
       </section>
 

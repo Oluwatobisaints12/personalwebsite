@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+a{
+    text-decoration: none;
+}
 .container {
     width: 80%;
     margin: 0 auto;
